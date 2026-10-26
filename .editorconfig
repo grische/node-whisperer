@@ -1,7 +1,26 @@
+# Top-most EditorConfig file
 root = true
 
 [*]
 end_of_line = lf
 insert_final_newline = true
 indent_style = tab
+charset = utf-8
 trim_trailing_whitespace = true
+
+[*.c]
+
+[*.h]
+
+[*.json]
+indent_style = space
+indent_size = 2
+
+[*.lua]
+
+[{Makefile,*.mk}]
+indent_style = unset
+
+[*{.yml,.yaml}]
+indent_style = space
+indent_size = 2
